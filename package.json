@@ -4,7 +4,7 @@
   "description": "Super simple binary blob storage server.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "standard && nyc ava"
+    "test": "standard"
   },
   "bin": {
     "blubber-server": "./bin/blubber-server.js"
