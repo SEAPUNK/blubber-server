@@ -28,5 +28,8 @@
     "coveralls": "^2.11.11",
     "nyc": "^7.0.0",
     "standard": "^7.1.2"
+  },
+  "engines": {
+    "node": ">=4"
   }
 }
