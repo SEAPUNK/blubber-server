@@ -1,0 +1,32 @@
+{
+  "name": "blubber-server",
+  "version": "0.0.0",
+  "description": "Super simple binary blob storage server.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "standard && nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SEAPUNK/blubber-server.git"
+  },
+  "keywords": [
+    "blob",
+    "storage",
+    "binary",
+    "server"
+  ],
+  "author": "Ivan K <ivan@sq10.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SEAPUNK/blubber-server/issues"
+  },
+  "homepage": "https://github.com/SEAPUNK/blubber-server#readme",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-eslint": "^6.1.2",
+    "coveralls": "^2.11.11",
+    "nyc": "^7.0.0",
+    "standard": "^7.1.2"
+  }
+}
