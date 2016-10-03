@@ -6,6 +6,10 @@
   "scripts": {
     "test": "standard && nyc ava"
   },
+  "bin": {
+    "blubber-server": "./bin/blubber-server.js"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/SEAPUNK/blubber-server.git"
@@ -23,13 +27,23 @@
   },
   "homepage": "https://github.com/SEAPUNK/blubber-server#readme",
   "devDependencies": {
-    "ava": "^0.15.2",
-    "babel-eslint": "^6.1.2",
-    "coveralls": "^2.11.11",
-    "nyc": "^7.0.0",
-    "standard": "^7.1.2"
+    "ava": "^0.16.0",
+    "babel-eslint": "^7.0.0",
+    "coveralls": "^2.11.14",
+    "nyc": "^8.3.0",
+    "standard": "^8.3.0"
   },
   "engines": {
     "node": ">=4"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "fastconf": "^0.3.1",
+    "guaranteed-error": "^1.0.0",
+    "meow": "^3.7.0",
+    "mini-copromise": "^3.0.1",
+    "mkdirp": "^0.5.1",
+    "pify": "^2.3.0",
+    "rimraf": "^2.5.4"
   }
 }
