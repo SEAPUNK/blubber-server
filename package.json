@@ -30,7 +30,7 @@
     "ava": "^0.18.0",
     "babel-eslint": "^7.0.0",
     "coveralls": "^2.11.14",
-    "nyc": "^10.1.2",
+    "nyc": "^11.0.0",
     "standard": "^9.0.0"
   },
   "engines": {
