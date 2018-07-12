@@ -28,7 +28,7 @@
   "homepage": "https://github.com/SEAPUNK/blubber-server#readme",
   "devDependencies": {
     "ava": "^0.18.0",
-    "babel-eslint": "^7.0.0",
+    "babel-eslint": "^8.2.6",
     "coveralls": "^2.11.14",
     "nyc": "^10.1.2",
     "standard": "^9.0.0"
