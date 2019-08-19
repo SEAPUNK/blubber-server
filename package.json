@@ -42,7 +42,7 @@
     "fastconf": "^0.3.2",
     "guaranteed-error": "^1.0.0",
     "hasha": "^2.2.0",
-    "koa": "^2.0.0-alpha.7",
+    "koa": "^2.8.0",
     "koa-route": "^3.2.0",
     "meow": "^3.7.0",
     "mini-copromise": "^3.0.1",
